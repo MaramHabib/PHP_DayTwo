@@ -73,6 +73,9 @@ echo nl2br("<span style=\"color:red;'\">This is the original array </span>");
 print_r($arr);
 echo "</br>";
 
+echo " Sum and Average of an array";
+echo $average = array_sum($array) / count($array);
+
 rsort($arr);
 
 echo nl2br("<span style=\"color:red;'\">Array Sotred highest to lowest </span>");
